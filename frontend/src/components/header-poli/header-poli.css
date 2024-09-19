@@ -1,0 +1,12 @@
+.header-poli {
+    display: none;
+    margin-right: 8px; /* Adjust margin as needed */
+    width: 24px; /* Adjust width as needed */
+    height: 24px; /* Adjust height as needed */
+  }
+  
+  @media (min-width: 48em) {
+    .header-poli {
+      display: flex;
+    }
+  }
