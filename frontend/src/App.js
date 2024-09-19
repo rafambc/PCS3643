@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import {Router, Routes, Route} from 'react-router-dom'
-
+import ResponsiveAppBar from './components/header-poli/header-poli';
+import BasicTable from './components/tabela/tabela';
 function App() {
   return (
-    <Router>
-      <Routes>
-      </Routes>
-    </Router>
+    <>
+      <ResponsiveAppBar></ResponsiveAppBar>
+      <BasicTable></BasicTable>
+    </>
   );
 }
 
